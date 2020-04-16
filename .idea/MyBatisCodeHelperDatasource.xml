@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="javaMapperPackage" value="com.jyf.blog.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaModelPackage" value="com.jyf.blog.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="blog" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="blog">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.jyf.blog.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaModelPacakge" value="com.jyf.blog.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/src/main/resource" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="forest_blog:article">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="article_id" />
+                  <option name="javaModelName" value="Article" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:article_category_ref">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="ArticleCategoryRef" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:article_tag_ref">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="ArticleTagRef" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="category_id" />
+                  <option name="javaModelName" value="Category" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:comment">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="comment_id" />
+                  <option name="javaModelName" value="Comment" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:link">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="link_id" />
+                  <option name="javaModelName" value="Link" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:menu">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="menu_id" />
+                  <option name="javaModelName" value="Menu" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:notice">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="notice_id" />
+                  <option name="javaModelName" value="Notice" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:options">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="Options" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:page">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="page_id" />
+                  <option name="javaModelName" value="Page" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:tag">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="tag_id" />
+                  <option name="javaModelName" value="Tag" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="forest_blog:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="user_id" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="blog" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/src/main/resource" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
