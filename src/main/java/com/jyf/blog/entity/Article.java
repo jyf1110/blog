@@ -1,7 +1,11 @@
 package com.jyf.blog.entity;
 
+import org.springframework.transaction.annotation.Transactional;
+
+import java.beans.Transient;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 public class Article implements Serializable {
     private Integer articleId;
@@ -29,6 +33,16 @@ public class Article implements Serializable {
     private Date articleCreateTime;
 
     private String articleSummary;
+
+    public List<Category> getCategoryList() {
+        return categoryList;
+    }
+
+    public void setCategoryList(List<Category> categoryList) {
+        this.categoryList = categoryList;
+    }
+
+    private List<Category> categoryList;
 
     private static final long serialVersionUID = 1L;
 

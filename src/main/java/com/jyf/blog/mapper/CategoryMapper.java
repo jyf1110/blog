@@ -1,6 +1,8 @@
 package com.jyf.blog.mapper;
 
-import com.jyf.blog.entity.Category;
+import com.jyf.blog.entity.Category;import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface CategoryMapper {
     int deleteByPrimaryKey(Integer categoryId);
@@ -14,4 +16,6 @@ public interface CategoryMapper {
     int updateByPrimaryKeySelective(Category record);
 
     int updateByPrimaryKey(Category record);
+
+    List<Category> findAllByArticleId(@Param("articleId")int articleId);
 }

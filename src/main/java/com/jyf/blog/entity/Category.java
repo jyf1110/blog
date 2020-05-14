@@ -3,6 +3,25 @@ package com.jyf.blog.entity;
 import java.io.Serializable;
 
 public class Category implements Serializable {
+
+    /**
+     *未分类
+     */
+    public static Category Default(){
+        return new Category(100000000,"未分类");
+    }
+
+        public Category(int categoryId,String categoryName){
+           this.categoryId=categoryId;
+           this.categoryName=categoryName;
+        }
+
+    public Category(){
+
+    }
+
+
+
     private Integer categoryId;
 
     private Integer categoryPid;

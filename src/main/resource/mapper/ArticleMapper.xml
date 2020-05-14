@@ -212,4 +212,18 @@
       article_summary = #{articleSummary,jdbcType=VARCHAR}
     where article_id = #{articleId,jdbcType=INTEGER}
   </update>
+
+  <!-- =============================================== -->
+    <select id="selectAllArticle" resultMap="BaseResultMap">
+          select   <include refid="Base_Column_List" /> from article
+          <where>
+            <if test="status !=null">
+            article.article_status=#{status} and
+            </if>
+           1=1
+          </where>
+           order by article.article_order desc,`article`.`article_id` DESC
+
+
+    </select>
 </mapper>
